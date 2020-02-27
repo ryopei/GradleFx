@@ -26,7 +26,7 @@ import org.slf4j.LoggerFactory
 
 abstract class CompilerInstructionsBuilder implements SimpleConventionOptionsInjector, FlexFrameworkRslOptionsInjector {
 
-    protected static final Logger LOG = LoggerFactory.getLogger 'gradlefx'
+    static final Logger LOG = LoggerFactory.getLogger 'gradlefx'
 
     CompilerOptions compilerOptions = new CompilerOptions()
     Project project
