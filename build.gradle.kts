@@ -3,8 +3,11 @@ plugins {
     id("java-gradle-plugin")
     `kotlin-dsl`
     id("groovy")
+    `maven-publish`
 }
 
+group = "org.gradlefx2"
+version = "2.0.0-SNAPSHOT1"
 
 repositories {
     mavenCentral()
